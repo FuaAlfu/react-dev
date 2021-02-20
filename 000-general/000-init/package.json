@@ -1,0 +1,12 @@
+{
+  "name": "000-init",
+  "version": "1.0.0",
+  "description": "```\r npm install -g typescript\r ```",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

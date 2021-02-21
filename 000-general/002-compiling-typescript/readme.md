@@ -8,7 +8,7 @@ npm install -g typescript
 tsc fileName.ts anotherFileName.js
 ``` 
 
-## or run - if the file names were the same
+## or run - if the file names were the same :: add -w to auto compile
 ```
-tsc fileName.ts
+tsc fileName.ts -w
 ```

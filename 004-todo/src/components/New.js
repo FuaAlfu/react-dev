@@ -1,6 +1,6 @@
 function New(){
     return(
-        <h2>new content</h2>
+        <h3 className="new">new content</h3>
     )
 }
 

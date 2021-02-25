@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background: #eee;
+    padding: 0 16px;
+}
+
+.border{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #000;
+    border-radius: 4px;
+    height: 45vh;
+    width: 100%;
+}
+
+.testo .one .new{
+    text-align: center;
+    font-weight: bold;
+}
+
+.testo{
+    color: #ddd;
+}
+
+.one{
+    color: red;
+}
+
+.new{
+    color: blue;
+}

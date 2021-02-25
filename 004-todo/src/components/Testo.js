@@ -1,6 +1,6 @@
 const Testo =  () => {
   return(
-      <h2>testo</h2>
+      <h2 className="testo">testo</h2>
   )
 }
 

@@ -3,7 +3,7 @@ import Testo from './Testo';
 import New from './New';
 import One from './One';
 import Commit from './Commit';
-import notes from "../comments";
+import comments from "../comments";
 
  function Border() {
         return (
@@ -12,7 +12,7 @@ import notes from "../comments";
              <New />
             <One />
      {comments.map((commitItem) => 
-  <Note key={commitItem.key} title={commitItem.title} content={commitItem.content} />)}
+  <Commit key={commitItem.key} title={commitItem.title} q={commitItem.q} a={commitItem.a}/>)}
             </div>
         )
 }

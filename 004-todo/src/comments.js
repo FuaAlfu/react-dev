@@ -10,6 +10,12 @@ const comments = [
       title: "cats vs. dogs",
       q: "Q.What's the difference between cats and dogs?",
        a: " A. You can treat your cat with a kiss, but you can only hangout with your trusty dog!."
+    },
+    {
+      key: 1,
+      title: "manga",
+      q:"Q. Why everyone loves manga?",
+       a: " A. Because its cool."
     }
 ];
 

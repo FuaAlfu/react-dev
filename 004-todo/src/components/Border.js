@@ -12,7 +12,9 @@ import Footer from "./Footer";
  function Border() {
         return (
             <div className="border">
-            <Header header={details[0].header}/>
+            <Header header={details[0].header}
+            content={details[0].content}
+            />
              <Testo />
              <New />
             <One />

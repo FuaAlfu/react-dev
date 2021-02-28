@@ -9,6 +9,7 @@ import details from "../details";
 import Header from "./Header";
 import Footer from "./Footer";
 
+
  function Border() {
         return (
             <div className="border">

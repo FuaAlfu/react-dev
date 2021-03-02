@@ -2,10 +2,12 @@ const printAllnumbers = () =>{
 
 const array:number[] = [77, 743, 221, 1, 42,91]  
 console.log("looping index ");  
+//in
 for (let index in array) {  
    console.log(index);  
 }  
 console.log("looping values ");  
+//of
 for (let val of array) {  
    console.log(val);  
 } 

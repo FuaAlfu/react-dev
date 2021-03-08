@@ -1,12 +1,11 @@
-import Header from './components/Header';
-import details from './details';
+import Holder from './components/Holder';
 
 function App() {
   return (
     <>
-    {details.map((detailItem) => 
-      <Header  key={detailItem.key} header={detailItem.header} content={detailItem.content}/>)}
-    </>
+    
+      <Holder />
+   </>
   );
 }
 

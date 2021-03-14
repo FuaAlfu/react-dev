@@ -23,7 +23,10 @@ console.log('---');
 //-----------------------------------
 
 let details:(obj:{name:string, age:number}) => void;
-details = (obj:{name:string, age:number}) =>{
+
+type person = {name: string, age: number};
+
+details = (obj:person) =>{
     console.log(`${obj.name} is ${obj.age} years old`)
 }
 

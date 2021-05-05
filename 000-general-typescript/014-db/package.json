@@ -1,0 +1,17 @@
+{
+  "name": "014-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "init": "^0.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "go": "node dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

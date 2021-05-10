@@ -1,3 +1,5 @@
+import {Txt} from './style';
+
 const data = [
     {id:1, name: 'foo', age: 42},
     {id:2, name: 'hoo', age: 53},
@@ -24,14 +26,14 @@ function List(){
 const Person = (props) =>{
     console.log(props);
     return (
-        <div>
+        <Txt>
             <h1>Hi there !</h1>
             {/*<h2>{props.name}</h2>*/}
             <h2>{props.person.name} - {props.person.credit}</h2>
             <h1>your age</h1>
             <h2>{props.person.age}</h2>
             <p>---</p>
-        </div>
+        </Txt>
         
     )
 }

@@ -1,5 +1,6 @@
 import {useState} from 'react';
 import './App.css';
+import Card from './components/Card';
 
 const cardImages = [
   {"src": "img/helmet-1.png"},
@@ -7,7 +8,7 @@ const cardImages = [
   {"src": "img/ring-1.png"},
   {"src": "img/scroll-1.png"},
   {"src": "img/shield-1.png"},
-  {"src": "img/sword-1.png"},
+  {"src": "img/sword-1.png"}
 ]
 
 function App() {
@@ -31,12 +32,7 @@ function App() {
      {/* our game grid */}
      <div className="card-grid">
        {cards.map(card => (
-         <div className="card" key={card.id}>
-           <div>
-             <img className="front" src={card.src} alt="card front" />
-             <img className="back" src="/img/cover.png" alt="card back"/>
-           </div>
-         </div>
+         <Card key={card.id} card={card} />
        ))}
      </div>
     </div>

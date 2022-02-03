@@ -1,11 +1,3 @@
-# Install React Router Version 6
-```
-npm install react-router-dom@6
-```
-## Visit react router docs home pages
-[click here](https://reactrouter.com/docs/en/v6)
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

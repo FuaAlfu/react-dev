@@ -1,0 +1,21 @@
+.carousel{
+    cursor: grab;
+    overflow: hidden;
+    /* background-color: lightcoral; */
+}
+
+.item{
+    min-height: 40rem;
+    min-width: 30rem;
+    padding: 40px;
+}
+
+.item img{
+    border-radius: 2rem;
+    pointer-events: none;
+}
+
+.inner-carousel{
+    display: flex;
+    /* background-color: lightblue; */
+}

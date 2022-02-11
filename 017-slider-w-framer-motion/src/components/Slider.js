@@ -1,4 +1,4 @@
-import {motion} from 'motion';
+import {motion} from 'framer-motion';
 import styled from 'styled-components';
 import images from '../images';
 import {useRef, useState, useEffect} from 'react';

@@ -1,6 +1,7 @@
 import './App.css';
+import {useState} from 'react';
 // import { BrowserRouter, Link, Route, Switch } from 'react-router-dom';
-import { BrowserRouter, Link, Route,Routes } from 'react-router-dom';
+import { BrowserRouter, Link, Route,Routes,Navigate } from 'react-router-dom';
 
 // pages
 import Home from './pages/Home';
@@ -12,6 +13,7 @@ function App() {
   /**
    * including the old version 
    */
+  const [cartIsEmpty] = useState(true);
   return (
     <div className="App">
       <BrowserRouter>
@@ -45,6 +47,13 @@ function App() {
                     <h2>test page..</h2>
                </div>
           )}/>
+          {/* an OLD EXAMPLE */}
+          {/* <Route path="/redirect" element={<Rdirect to="/about" />}/> */}
+          <Route path="/redirect" element={<Navigate to="/about" />}/> 
+          <Route
+           path="/checkout"
+           element={cartIsEmpty ? <Navigate to="/products"/> : <p>checkout</p> }
+           />
         {/* </Switch> */}
         </Routes>
       </BrowserRouter>

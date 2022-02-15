@@ -1,5 +1,7 @@
 import './App.css';
 import {useEffect, useState} from 'react';
+import Movie from './components/Movie';
+import Filter from './components/Filter';
 
 function App() {
   //store data
@@ -16,6 +18,12 @@ function App() {
   return (
     <div className="App">
         <h1>yo</h1>
+        <Filter />
+        <div className="popular-movies">
+             {popular,map(movie => {
+                return <Movie key={movie.id} movie={movie}/>;
+             })}
+        </div>
     </div>
   );
 }
